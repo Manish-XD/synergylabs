@@ -1,0 +1,15 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff0000;
+  --green: #a0cec7;
+  --grey: #c4c4c4;
+  --darkAccent: #5b6c6c;
+  --lightAccent: #c2efe8;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

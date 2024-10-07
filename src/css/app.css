@@ -1,0 +1,51 @@
+.app__body {
+    padding: 3rem 8rem;
+}
+
+.app__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__body h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.app__body hr {
+    width: 40%;
+    margin-bottom: 2.5rem;
+}
+
+.search__container{
+    border: 1px solid grey;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.search__container input{
+    outline: none;
+    border: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .app__body {
+        padding: 1rem 1.5rem;
+    }
+
+    .app__body h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .app__header{
+        flex-direction: column;
+    }
+
+    .search__container{
+        width: 60vw;
+    }
+}

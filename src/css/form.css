@@ -1,0 +1,76 @@
+strong
+{
+    color: var(--red);
+}
+
+.modal__header strong
+{
+    font-size: 10px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+.inputContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer label
+{
+
+}
+
+.inputContainer input
+{
+    outline: none;
+    border: 1px solid var(--grey);
+    font-size: 14px;
+    padding: 1px 5px;
+}
+
+.inputContainer span
+{
+    font-size: 10px;
+    color: var(--grey);
+}
+
+#username
+{
+    background-color: #f2f2f2;
+}
+
+.input__outer
+{
+    border: 1px solid var(--grey);
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+.form__btn
+{
+    background: var(--darkAccent);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.form__btn:hover
+{
+    background: #383e3e;
+}
+
+.input__inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__inner span
+{
+    color: var(--red);
+    font-size: 1rem;
+}
+

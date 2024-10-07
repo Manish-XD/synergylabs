@@ -1,0 +1,102 @@
+.tableHeader
+{
+    display: flex;
+    color: var(--white);
+    font-weight: 700;
+    background-color: var(--darkAccent);
+    /* padding: 0 0.5rem; */
+}
+
+.tableHeader div{
+    /* border: 0.5px solid white; */
+}
+
+.TableRow
+{
+    display: flex;
+}
+
+.id
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 10%;
+    max-width: 10%;
+}
+
+.username
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 18%;
+    max-width: 18%;
+}
+
+.name
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 18%;
+    max-width: 18%;
+}
+
+.TableRow .name
+{
+    text-decoration: underline;
+}
+
+.phone
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 18%;
+    max-width: 18%;
+}
+
+.email
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 18%;
+    max-width: 18%;
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18%;
+    max-width: 18%;
+}
+
+@media screen and (max-width: 1000px) {
+    .id{
+        display: none;
+    }
+    .username
+    {
+        display: none;
+    }
+    .phone
+    {
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .name
+    {
+        width: 50%;
+        max-width: 50%;
+    }
+    .buttons{
+        width: 50%;
+        max-width: 50%;
+    }
+}
